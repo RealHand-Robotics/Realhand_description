@@ -39,7 +39,7 @@ We are rapidly expanding our ecosystem to provide a complete end-to-end robotics
 - [ ] **Digital Twin Tutorials**: Comprehensive, step-by-step guides on building and deploying digital twins （under development）.
 
 > [!IMPORTANT]
-> **Under Development:** We are currently finalizing our Robotic Arm assets and Isaac Lab reinforcement learning tutorials. **Star** this repository to stay updated on our latest releases!
+> **Under Development:** We are currently developing our Robotic Arm assets and Isaac Lab tutorials. **Star** this repository to stay updated on our latest releases!
 
 We are committed to supporting your research and development. 
 * **Technical Issues:** Please open an [Issue](项目链接/issues) on GitHub.
