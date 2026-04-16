@@ -35,8 +35,8 @@ We are rapidly expanding our ecosystem to provide a complete end-to-end robotics
 
 - [x] **Realhand Dexterous Hand**: High-fidelity USD assets (Available Now).
 - [ ] **Robotic Arm Integration**: Official USD models for integrated arm-and-hand systems (Coming Soon).
-- [ ] **Isaac Lab Support**: Pre-configured environments and RL training wrappers for Isaac Lab (TBD).
-- [ ] **Digital Twin Tutorials**: Comprehensive, step-by-step guides on building and deploying digital twins （TBD）.
+- [ ] **Isaac Lab Support**: Pre-configured environments and RL training wrappers for Isaac Lab (under development).
+- [ ] **Digital Twin Tutorials**: Comprehensive, step-by-step guides on building and deploying digital twins （under development）.
 
 > [!IMPORTANT]
 > **Under Development:** We are currently finalizing our Robotic Arm assets and Isaac Lab reinforcement learning tutorials. **Star** this repository to stay updated on our latest releases!
