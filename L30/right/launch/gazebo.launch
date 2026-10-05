@@ -1,0 +1,7 @@
+<launch>
+  <arg name="model" default="$(find realhand_l30_right)/urdf/realhand_l30_right.urdf" />
+  <param name="robot_description" textfile="$(arg model)" />
+  <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+  <node name="spawn_model" pkg="gazebo_ros" type="spawn_model"
+        args="-param robot_description -urdf -model realhand_l30_right" output="screen" />
+</launch>

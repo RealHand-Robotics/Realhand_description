@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>realhand_l30_left</name>
+  <version>1.0.0</version>
+  <description>Realhand L30 V6 (L30Pro) left hand model, meshes and ROS 1 visualization launch files.</description>
+  <maintainer email="support@realhand.com">RealHand Robotics</maintainer>
+  <!-- Retained from the supplied export; see REVIEW_L30.md before publication. -->
+  <license>BSD</license>
+  <url type="repository">https://github.com/RealHand-Robotics/Realhand_description</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>roslaunch</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <export>
+    <architecture_independent />
+  </export>
+</package>
