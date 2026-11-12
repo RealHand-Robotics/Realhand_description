@@ -1,0 +1,3677 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="realarm_a6_o6_right">
+  <link name="base_link">
+    <visual name="cad_part_051">
+      <origin xyz="0 0 0" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/c47095309b66.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_052">
+      <origin xyz="-0.013435028842544217 -0.013435028842544439 0.0028000000000000247" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/1a97df90a27e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_053">
+      <origin xyz="0.02649999999999042 2.9531932455029164e-14 0.062050000000000161" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_054">
+      <origin xyz="-9.5479180117763462e-15 2.8532731732866523e-14 0.063550000000000106" rpy="-1.5707963267948966 -0 -1.9074052093915414e-15" />
+      <geometry>
+        <mesh filename="meshes/b5c4332975a7.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_055">
+      <origin xyz="-1.2656542480726785e-14 2.8532731732866523e-14 0.055800000000000072" rpy="-1.5707963267948966 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/985fd2636c89.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_056">
+      <origin xyz="0.013249999999990436 0.022949673200318488 0.062050000000000161" rpy="3.1415926535897931 -0 -2.094395102393217" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_057">
+      <origin xyz="0.01343502884253045 -0.013434999999971442 0.022749985420000063" rpy="3.1415926535897931 -0 -1.5707963267948986" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_058">
+      <origin xyz="-0.0134349711574695 0.013435000000028507 0.022749985420000063" rpy="3.1415926535897931 -0 1.5707963267948948" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_059">
+      <origin xyz="-0.013250000000009532 0.022949673200318599 0.062050000000000161" rpy="3.1415926535897931 -0 -1.0471975511965803" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_060">
+      <origin xyz="-9.5479180117763462e-15 2.8532731732866523e-14 0.01990000000000014" rpy="1.5707963267948966 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/478cdcc29822.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_061">
+      <origin xyz="-9.5479180117763462e-15 2.8532731732866523e-14 0.063050000000000161" rpy="-1.5707963267948966 -0 -1.9074052093915414e-15" />
+      <geometry>
+        <mesh filename="meshes/6e34851f243a.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_062">
+      <origin xyz="0.013249999999990436 -0.022949673200261533 0.062050000000000161" rpy="3.1415926535897931 -0 2.094395102393213" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_063">
+      <origin xyz="-0.013250000000009532 -0.022949673200261422 0.062050000000000161" rpy="3.1415926535897931 -0 1.0471975511965763" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_064">
+      <origin xyz="-0.026500000000009516 2.7533531010703882e-14 0.062050000000000161" rpy="3.1415926535897931 -0 -1.9074052093915414e-15" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_065">
+      <origin xyz="0.01343502884253045 0.013435000000028507 0.022749985420000063" rpy="3.1415926535897931 -0 -1.9074052093915414e-15" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_066">
+      <origin xyz="-0.0134349711574695 -0.013434999999971442 0.022749985420000063" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_067">
+      <origin xyz="-0.01300000000000967 -0.022516660498371421 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_068">
+      <origin xyz="-0.022516660498409502 -0.012999999999971479 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_069">
+      <origin xyz="-0.022516660498409502 0.013000000000028544 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_070">
+      <origin xyz="-9.5479180117763462e-15 0.026000000000028556 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_071">
+      <origin xyz="0.022516660498390406 0.013000000000028544 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_072">
+      <origin xyz="0.018031222920250389 0.01803122292028847 0.010300000000000087" rpy="0 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_073">
+      <origin xyz="-0.018031194077729573 0.018031194077738566 0.010300000000000087" rpy="0 -0 -1.5707963267948986" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_074">
+      <origin xyz="-0.018031165235179669 -0.018031222920231404 0.010300000000000087" rpy="0 -0 -1.9074052093915414e-15" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_075">
+      <origin xyz="0.022516660498390406 -0.012999999999971479 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_076">
+      <origin xyz="0.012999999999990353 -0.022516660498371532 0.026100000000000123" rpy="3.1415926535897931 -0 3.1415926535897913" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_077">
+      <origin xyz="0.018031251762790523 -0.018031194077681501 0.010300000000000087" rpy="0 -0 1.5707963267948948" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_078">
+      <origin xyz="0.013435028842544439 0.013435028842544328 0.0028000000000000247" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/1a97df90a27e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_079">
+      <origin xyz="0 0 0.0058000000000000274" rpy="1.5707963267948966 -0 -3.14159265358979" />
+      <geometry>
+        <mesh filename="meshes/04194874bf6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_080">
+      <origin xyz="0.013435028842544439 -0.013435028842544439 0.0028000000000000247" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/1a97df90a27e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_081">
+      <origin xyz="0.011499999999982302 -0.019918584287018204 0.062549999999999994" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/5a34cca2b68d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_082">
+      <origin xyz="-0.022903805922287468 0.022903805922287468 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_083">
+      <origin xyz="-0.011500000000017607 -0.019918584287008767 0.062549999999999994" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/5a34cca2b68d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_084">
+      <origin xyz="0.018999999999999906 -1.1102230246251565e-16 0.010299999999999976" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/ae25057927c6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_085">
+      <origin xyz="-0.011500000000001176 0.019918584287075491 0.062549999999999994" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/5a34cca2b68d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_086">
+      <origin xyz="-0.013435028842544439 0.013435028842544328 0.0028000000000000247" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/1a97df90a27e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_087">
+      <origin xyz="-9.5479180117763462e-15 2.8532731732866523e-14 0.010000000000000009" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/578857da3e29.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_088">
+      <origin xyz="-0.018999999999999906 -1.1102230246251565e-16 0.010299999999999976" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/ae25057927c6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_089">
+      <origin xyz="0.011499999999998733 0.019918584287065833 0.062549999999999994" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/5a34cca2b68d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_090">
+      <origin xyz="0.022999999999990584 1.9206858326015208e-14 0.062549999999999994" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/5a34cca2b68d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_092">
+      <origin xyz="-9.5479180117763462e-15 2.8532731732866523e-14 0.064549999999999996" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/6062f422bb45.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_093">
+      <origin xyz="-0.023000000000009457 3.8413716652030416e-14 0.062549999999999994" rpy="-3.1415926535897931 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/5a34cca2b68d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_094">
+      <origin xyz="0.02750000000000008 0.027499999999999858 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_095">
+      <origin xyz="-0.022903805922287468 -0.022903805922287468 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_096">
+      <origin xyz="-0.02750000000000008 -0.027499999999999969 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_097">
+      <origin xyz="0.027499999999999636 -0.027500000000000302 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_098">
+      <origin xyz="8.8817841970012523e-16 0.025000000000028555 0.065549999999999997" rpy="6.123233995736766e-17 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/2f1c17b612b0.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_099">
+      <origin xyz="0.022903805922287468 0.022903805922287468 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_100">
+      <origin xyz="-0.027499999999999858 0.02750000000000008 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_101">
+      <origin xyz="0.021650635094606629 0.012500000000019496 0.065549999999999997" rpy="6.102541934221212e-17 5.0296770037257415e-18 1.4885628171463141" />
+      <geometry>
+        <mesh filename="meshes/2f1c17b612b0.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_102">
+      <origin xyz="0.022903805922287468 -0.022903805922287468 0.013000000000000012" rpy="-1.5707963267948966 -0 0.99208669193683352" />
+      <geometry>
+        <mesh filename="meshes/140914e87c92.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_103">
+      <origin xyz="-2.0206059048177849e-14 -0.024999999999971378 0.065549999999999997" rpy="5.8321891848830842e-17 -1.8653589140643239e-17 1.8803528084576024" />
+      <geometry>
+        <mesh filename="meshes/2f1c17b612b0.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_104">
+      <origin xyz="-0.021650635094625725 -0.012499999999962208 0.065549999999999997" rpy="6.119032012112272e-17 2.2680785103625127e-18 1.5337473185947794" />
+      <geometry>
+        <mesh filename="meshes/2f1c17b612b0.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_105">
+      <origin xyz="-0.021650635094615067 0.012500000000037814 0.065549999999999997" rpy="6.1026632232875309e-17 5.0149391788963057e-18 1.4888043177940724" />
+      <geometry>
+        <mesh filename="meshes/2f1c17b612b0.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_106">
+      <origin xyz="0.021650635094596193 -0.012499999999980527 0.065549999999999997" rpy="6.1011588063061096e-17 5.1947645449996566e-18 1.4858572863555812" />
+      <geometry>
+        <mesh filename="meshes/2f1c17b612b0.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="link_1">
+    <visual name="cad_part_091">
+      <origin xyz="0 0 0.00095000000000000639" rpy="1.5707963267948966 -0 -1.4262208556446141" />
+      <geometry>
+        <mesh filename="meshes/921d8fd98d6d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_107">
+      <origin xyz="0 0 0" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/a01720ef9291.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_108">
+      <origin xyz="6.6613381477509392e-16 -0.033750000000000724 0.011450000000000071" rpy="1.5707963267948966 -2.3170188487926055e-16 3.6082248300317578e-16" />
+      <geometry>
+        <mesh filename="meshes/3ce0769f6af1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_109">
+      <origin xyz="-0.0085743741577954946 -0.032100000000000684 0.045950000000000046" rpy="1.5707963267948966 0.2510023448491166 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/9e7f2b97d083.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_110">
+      <origin xyz="-0.0085743741577954946 -0.036650000000000627 0.045950000000000046" rpy="1.5707963267948966 0.2510023448491166 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/9e7f2b97d083.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_112">
+      <origin xyz="-0.0085743741577954946 -0.036750000000000616 0.045950000000000046" rpy="1.5707963267948966 0.2510023448491166 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/a57c6332ae99.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_157">
+      <origin xyz="0 0.013499999999999956 -0.0039500000000000091" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/4c71c6766a28.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_159">
+      <origin xyz="-0.0018243741577959049 0.025349999999999984 0.057641342951090024" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/aa8a21e5cca8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_160">
+      <origin xyz="0.0049256258422041288 0.025349999999999984 0.045950000000000046" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/aa8a21e5cca8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_205">
+      <origin xyz="0.015000000000000568 -0.030350000000000765 0.011450000000000071" rpy="-3.1415926535897927 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_210">
+      <origin xyz="-0.011691342951089867 -0.0067500000000000338 -0.0039500000000000091" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/4c71c6766a28.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_211">
+      <origin xyz="0.011691342951089867 0.0067500000000001448 -0.0039500000000000091" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/4c71c6766a28.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_212">
+      <origin xyz="-0.011691342951089867 0.0067499999999999227 -0.0039500000000000091" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/4c71c6766a28.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_213">
+      <origin xyz="0.011691342951090089 -0.0067499999999999227 -0.0039500000000000091" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/4c71c6766a28.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_214">
+      <origin xyz="0 -0.013499999999999956 -0.0039500000000000091" rpy="1.5707963267948966 -0 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/4c71c6766a28.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_215">
+      <origin xyz="-0.015324374157795972 0.025349999999999984 0.057641342951089802" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/aa8a21e5cca8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_216">
+      <origin xyz="-0.0018243741577956829 0.025349999999999984 0.034258657048910068" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/aa8a21e5cca8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_217">
+      <origin xyz="-0.01532437415779575 0.025349999999999984 0.034258657048910068" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/aa8a21e5cca8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_218">
+      <origin xyz="-0.022074374157795784 0.025349999999999984 0.045950000000000046" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/aa8a21e5cca8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_223">
+      <origin xyz="-0.014999999999999236 -0.030350000000000765 0.011450000000000071" rpy="-3.1415926535897927 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_224">
+      <origin xyz="6.6613381477509392e-16 -0.030350000000000765 0.011450000000000071" rpy="-3.1415926535897927 -1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_255">
+      <origin xyz="0.0060000000000000053 -0.010392304845413203 0.0034499999999999531" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_259">
+      <origin xyz="-0.012000000000000011 0 0.0034499999999999531" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_262">
+      <origin xyz="-0.01896667900320903 0.033250000002126967 0.039950000000000041" rpy="-1.5707963267948966 -0 -1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_263">
+      <origin xyz="0.0060000000000000053 0.010392304845412981 0.0034499999999999531" rpy="-0 1.5707963267948966 0" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_264">
+      <origin xyz="0.001817930687617153 0.033250000002126967 0.039950000000000041" rpy="-1.5707963267948966 -0 -1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_265">
+      <origin xyz="-0.0085743741577957167 0.033250000002126967 0.057950000000000057" rpy="-1.5707963267948966 -0 -1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="link_2">
+    <visual name="cad_part_000">
+      <origin xyz="0.22768053130000476 0 -0.024547416706192537" rpy="1.5707963267948819 1.4633960124114427 3.1415926535897789" />
+      <geometry>
+        <mesh filename="meshes/1240f0855d6e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_003">
+      <origin xyz="0.26247886577817803 -0.032975000000005306 -0.028299205285749696" rpy="1.5707963267949014 -1.5281433280534333e-15 4.4408920985006262e-16" />
+      <geometry>
+        <mesh filename="meshes/5a89cf0e715c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_007">
+      <origin xyz="-0.014797771861876585 -0.021224999999975069 -0.011917463988772026" rpy="9.3727117917923838e-07 1.5707963040226141 -3.1415917163186142" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_008">
+      <origin xyz="0.018890524430955846 -0.031924999999975889 -0.0020366852288280501" rpy="2.2772290261818824e-08 2.1452061216116625e-14 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/ae4404ba716d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_009">
+      <origin xyz="-3.0642155479654321e-14 -0.015124999999899358 3.5638159090467525e-14" rpy="1.6752050218192627e-26 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/478cdcc29822.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_010">
+      <origin xyz="-3.0642155479654321e-14 0.028025000000100664 3.5638159090467525e-14" rpy="-1.6752050218192627e-26 1.4633960124114029 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/6e34851f243a.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_011">
+      <origin xyz="-3.0642155479654321e-14 0.028525000000100609 3.5638159090467525e-14" rpy="-5.5191303080365667e-17 5.8536508973361366e-14 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/b5c4332975a7.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_012">
+      <origin xyz="0.011917435312449154 -0.012275014579899435 -0.014797768770043906" rpy="1.5707963267948966 0.10740031438349372 3.8857805861880775e-16" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_013">
+      <origin xyz="-0.002840639924548416 0.027025000000100663 -0.026347310390576029" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_014">
+      <origin xyz="-0.02139712015743811 0.027025000000100552 0.015633721532977707" rpy="1.5707963267948966 0.63099908998181209 3.8857805861992625e-16" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_015">
+      <origin xyz="0.014797737001949862 -0.012275014579899435 0.011917409727908557" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_016">
+      <origin xyz="-0.024237760081954995 0.027025000000100552 -0.010713588857634182" rpy="1.5707963267948966 -0.41619846121482468 3.8857805861782044e-16" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_017">
+      <origin xyz="0.010511445671645081 -0.0089249999998993745 -0.023780443853930078" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_018">
+      <origin xyz="-0.014797743185503309 -0.012275014579899435 -0.011917467080543198" rpy="-1.5707963267948966 1.4633960124114029 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_019">
+      <origin xyz="0.021397120157376825 0.027025000000100663 -0.015633721532906431" rpy="-1.5707963267948966 -0.63099908998181209 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_020">
+      <origin xyz="0.024237760081893711 0.027025000000100663 0.010713588857705458" rpy="-1.5707963267948966 0.41619846121482468 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_021">
+      <origin xyz="-3.0420110874729289e-14 0.020775000000100574 3.8635761256955448e-14" rpy="-3.1415926535897931 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/985fd2636c89.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_022">
+      <origin xyz="0.0028406399244871317 0.027025000000100663 0.026347310390647305" rpy="-1.5707963267948966 1.4633960124114029 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_023">
+      <origin xyz="-0.011917441496002601 -0.012275014579899435 0.014797711417409154" rpy="-1.5707963267948966 -0.10740031438349372 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_024">
+      <origin xyz="0.023780443853935074 -0.0089249999998993745 0.010511445671711361" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_025">
+      <origin xyz="0.015338745654931651 -0.0089249999998993745 0.020993400909192439" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_026">
+      <origin xyz="-0.010511445671706365 -0.0089249999998993745 0.023780443854001354" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_027">
+      <origin xyz="-0.015338745654992936 -0.0089249999998993745 -0.020993400909121163" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_028">
+      <origin xyz="-0.019860167498806369 -0.024724999999899411 -0.015994491142879541" rpy="-1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_029">
+      <origin xyz="0.015994459374775616 -0.024724999999899411 -0.019860193083345967" rpy="1.5707963267948966 -0.10740031438349372 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_030">
+      <origin xyz="-0.025850191326668659 -0.0089249999998993745 0.0027870429448445533" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_031">
+      <origin xyz="0.020993400909126159 -0.0089249999998993745 -0.015338745654926544" rpy="1.5707963267948966 -1.4633960124114029 3.8857805860195857e-16" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_032">
+      <origin xyz="-0.015994465558328841 -0.024724999999899411 0.019860135730711326" rpy="-1.5707963267948966 0.10740031438349372 3.8857805861880775e-16" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_033">
+      <origin xyz="0.019860161315252034 -0.024724999999899411 0.015994433790234908" rpy="1.5707963267948966 1.4633960124114029 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_034">
+      <origin xyz="-1.4654943925052066e-14 -0.028975000000074691 -1.0880185641326534e-13" rpy="-1.5707963267948966 -0.10740031438345364 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/3246d68f0736.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_035">
+      <origin xyz="-0.011917463988888821 -0.021224999999976846 0.014797771861894904" rpy="9.3239579121370868e-07 1.5707963040226125 -3.1415917211940023" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_036">
+      <origin xyz="0.024702603087021657 0.024225000000017149 0.003844658726509631" rpy="2.2772286265015932e-08 2.1452061219973082e-14 1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/b66f6bf346a2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_037">
+      <origin xyz="0.032417239114319152 -0.032974999999981214 0.0068143310899201337" rpy="-1.5707954701205571 1.5707963040226303 -3.1415917969154528" />
+      <geometry>
+        <mesh filename="meshes/ac54108b65b6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_038">
+      <origin xyz="-0.024702603087109809 0.024225000000017372 -0.003844658726400052" rpy="2.2772287611161349e-08 2.1452061219953016e-14 1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/b66f6bf346a2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_039">
+      <origin xyz="0.011917463988786681 -0.02122499999996974 -0.014797771861748799" rpy="9.3258789578002671e-07 1.5707963040226127 -3.1415917210018969" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_040">
+      <origin xyz="-0.018890524431053768 -0.031924999999976111 0.002036685228961943" rpy="2.2772289554051646e-08 2.1230016254402043e-14 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/ae4404ba716d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_041">
+      <origin xyz="0.014797771861779108 -0.021224999999976846 0.011917463988907251" rpy="9.3239598324021357e-07 1.5707963040226172 -3.14159172119381" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_042">
+      <origin xyz="0.030219762946298356 -0.032974999999983212 -0.013567550533006512" rpy="-1.5707954701205571 1.5707963040226303 -3.1415917969154528" />
+      <geometry>
+        <mesh filename="meshes/ac54108b65b6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_043">
+      <origin xyz="0 -0.030974999999998976 0" rpy="-1.5707963267948968 0.10740031438345375 3.885780586206313e-16" />
+      <geometry>
+        <mesh filename="meshes/2936e9eb8438.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_044">
+      <origin xyz="1.6231460620019789e-13 -0.029225000000149381 2.0117241206207837e-13" rpy="1.9104368409943833e-28 0.10740031438322283 3.8857805862062711e-16" />
+      <geometry>
+        <mesh filename="meshes/bdba681de961.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_045">
+      <origin xyz="-0.024855953198730685 0.030525000000016012 0.0026798489854401586" rpy="-1.5707971958690752 -1.5707963040226318 8.6907417883786763e-07" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_046">
+      <origin xyz="0.014748793898959889 0.030525000000016678 0.020185962412696878" rpy="-1.570797195869075 -1.5707963040226318 8.6907417874537841e-07" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_047">
+      <origin xyz="0.024855953198650305 0.030525000000016234 -0.0026798489853415708" rpy="-1.5707971958690752 -1.5707963040226318 8.6907417883786763e-07" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_048">
+      <origin xyz="0.010107159299650892 0.030525000000015345 -0.022865811397990266" rpy="-1.570797195869075 -1.5707963040226318 8.6907417874537841e-07" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_049">
+      <origin xyz="-0.01010715929973105 0.030525000000016678 0.022865811398087743" rpy="-1.570797195869075 -1.5707963040226318 8.6907417877620702e-07" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_050">
+      <origin xyz="-0.014748793899039381 0.030525000000015123 -0.02018596241259929" rpy="-1.570797195869075 -1.5707963040226318 8.6907417877620702e-07" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_111">
+      <origin xyz="2.6645352591003757e-15 -0.037975000000001979 1.6653345369377348e-15" rpy="1.5707963267948966 0.2510023448491166 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/5a89cf0e715c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_113">
+      <origin xyz="0.27439632976693495 -0.021224999999899574 -0.043096977147591975" rpy="1.3455858749424003e-06 1.5707963040226143 -3.1415913080039179" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_114">
+      <origin xyz="0.2300616266637332 -0.032974999999985211 -0.035113536375529719" rpy="-1.5707949865868274 1.5707963040226141 -3.1415913133817237" />
+      <geometry>
+        <mesh filename="meshes/ac54108b65b6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_115">
+      <origin xyz="0.25056140178925146 -0.02122499999989691 -0.013501433423937614" rpy="1.3455858757624209e-06 1.5707963040226143 -3.1415913080039171" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_116">
+      <origin xyz="0.24768109391626703 -0.02122499999990024 -0.040216669274605321" rpy="1.3455858749424003e-06 1.5707963040226143 -3.1415913080039179" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_117">
+      <origin xyz="0.27727663763991917 -0.021224999999896688 -0.016381741296923713" rpy="1.3455858757624209e-06 1.5707963040226143 -3.1415913080039171" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_118">
+      <origin xyz="0.24358834134708807 -0.031924999999897286 -0.026262520056871019" rpy="2.2772282379235342e-08 3.0642061815234542e-14 1.570796326794897" />
+      <geometry>
+        <mesh filename="meshes/ae4404ba716d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_119">
+      <origin xyz="0.26247886577808099 -0.028974999999489159 -0.028299205286574147" rpy="1.5707963267948619 0.10740031438345374 3.8857805862063736e-16" />
+      <geometry>
+        <mesh filename="meshes/3246d68f0736.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_120">
+      <origin xyz="0.28733481897677304 0.030525000000084179 -0.030979054271158768" rpy="-1.5707976670029662 -1.5707963040226141 1.3402080699989136e-06" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_121">
+      <origin xyz="0.2377762626910167 0.024225000000083985 -0.032143864012219803" rpy="2.2772282379235342e-08 3.0519597133745613e-14 1.570796326794897" />
+      <geometry>
+        <mesh filename="meshes/b66f6bf346a2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_122">
+      <origin xyz="0.2871814688651475 0.024225000000085317 -0.024454546559313783" rpy="2.2772282379235342e-08 3.0519597135673999e-14 1.570796326794897" />
+      <geometry>
+        <mesh filename="meshes/b66f6bf346a2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_123">
+      <origin xyz="0.23225910283175333 -0.032974999999995647 -0.014731654752602075" rpy="-1.5707949865868271 1.5707963040226141 -3.1415913133817233" />
+      <geometry>
+        <mesh filename="meshes/ac54108b65b6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_124">
+      <origin xyz="0.28136939020909857 -0.031924999999898174 -0.030335890514658015" rpy="2.2772282379235342e-08 3.0642061815234542e-14 1.570796326794897" />
+      <geometry>
+        <mesh filename="meshes/ae4404ba716d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_125">
+      <origin xyz="0.26247886577802704 -0.029224999999800993 -0.028299205285774454" rpy="-3.1415926535897585 -0.10740031438322292 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/bdba681de961.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_126">
+      <origin xyz="0.25237170647839102 0.030525000000085956 -0.0054333938877274557" rpy="-1.5707976670029662 -1.5707963040226141 1.3402080699525237e-06" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_127">
+      <origin xyz="0.26247886577816892 -0.030974999999963226 -0.028299205285764129" rpy="1.5707963267949312 -0.10740031438345385 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/2936e9eb8438.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_128">
+      <origin xyz="0.2471401201232295 -0.0089249999999356788 -0.04929260619502851" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_129">
+      <origin xyz="0.28233903327696752 -0.024724999999934272 -0.012304714142956086" rpy="1.5707963267952187 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_130">
+      <origin xyz="0.27299031144986752 -0.0089249999999356788 -0.052079649139837425" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_131">
+      <origin xyz="0.27439630727416375 -0.012275014579935406 -0.043096916703245225" rpy="1.5707963267948619 0.10740031438349382 3.8857805862106142e-16" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_132">
+      <origin xyz="0.24148546486903499 -0.0089249999999344576 -0.012960459630909527" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_133">
+      <origin xyz="0.28832905710482981 -0.0089249999999349017 -0.031086248230680735" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_134">
+      <origin xyz="0.27847333133648999 -0.024724999999935493 -0.048159341016546842" rpy="1.5707963267949314 -0.10740031438349382 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_135">
+      <origin xyz="0.27781761143315387 -0.0089249999999341245 -0.0073058043767150194" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_136">
+      <origin xyz="0.23869842192422608 -0.0089249999999353458 -0.038810650957547543" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_137">
+      <origin xyz="0.25196742010651607 -0.0089249999999341245 -0.0045187614319059932" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_138">
+      <origin xyz="0.24648440640338576 -0.024724999999934272 -0.0084390122024896597" rpy="-1.5707963267949314 0.10740031438349382 3.8857805862106142e-16" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_139">
+      <origin xyz="0.24261870446290934 -0.024724999999935493 -0.044293639076070423" rpy="-1.5707963267952187 -1.4633960124114027 3.2428960068951436e-13" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_140">
+      <origin xyz="0.26247886577819135 0.020775000000065047 -0.028299205285875706" rpy="3.2203474638085759e-13 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/985fd2636c89.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_141">
+      <origin xyz="0.28387598593559904 0.027025000000064581 -0.043932926818814999" rpy="-1.5707963267948539 -0.6309990899818122 3.1415926535897722" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_142">
+      <origin xyz="0.250561430465712 -0.012275014579934407 -0.013501436515792165" rpy="-1.5707963267948619 -0.10740031438349382 -3.1415926535897927" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_143">
+      <origin xyz="0.26531950570270935 0.027025000000066024 -0.0019518948952612636" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_144">
+      <origin xyz="0.2410817456207841 0.02702500000006558 -0.012665483752930973" rpy="1.5707963267948539 0.6309990899818122 -2.1111655844555895e-14" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_145">
+      <origin xyz="0.28671662586011593 0.02702500000006558 -0.017585616428203221" rpy="-1.5707963267948588 0.41619846121482457 -3.141592653589774" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_146">
+      <origin xyz="0.23824110569626722 0.027025000000064581 -0.039012794143542751" rpy="1.5707963267948588 -0.41619846121482457 1.9369007218893152e-14" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_147">
+      <origin xyz="0.26247886577819157 0.028025000000065137 -0.028299205285873041" rpy="3.1415926535894712 -1.4633960124114027 3.2428960068951436e-13" />
+      <geometry>
+        <mesh filename="meshes/6e34851f243a.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_148">
+      <origin xyz="0.26247886577819179 -0.015124999999934885 -0.028299205285871487" rpy="-3.1415926535894712 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/478cdcc29822.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_149">
+      <origin xyz="0.26247886577819157 0.028525000000065082 -0.028299205285873041" rpy="3.1772792211661171e-14 0.012561064167015971 -3.1415926535897922" />
+      <geometry>
+        <mesh filename="meshes/b5c4332975a7.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_150">
+      <origin xyz="0.2596382258536738 0.027025000000064137 -0.054646515676484708" rpy="1.5707963267945746 -1.4633960124114027 3.2428960068951436e-13" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_151">
+      <origin xyz="0.27727660896366424 -0.012275014579934407 -0.016381738205292762" rpy="1.5707963267945746 -1.4633960124114027 3.2428960068951436e-13" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_152">
+      <origin xyz="0.24768112877621129 -0.012275014579935406 -0.040216615013744517" rpy="-1.5707963267945746 1.4633960124114027 -3.1415926535894689" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_153">
+      <origin xyz="0.27722765967708174 0.030525000000085512 -0.0081132428731196526" rpy="-1.5707976670029662 -1.5707963040226141 1.3402080699525237e-06" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_154">
+      <origin xyz="0.27258602507777407 0.030525000000081737 -0.051165016683805797" rpy="-1.5707976670029662 -1.5707963040226141 1.3402080699833528e-06" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_155">
+      <origin xyz="0.2477300718790838 0.030525000000082625 -0.0484851676984136" rpy="-1.5707976670029662 -1.5707963040226141 1.3402080699833528e-06" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_156">
+      <origin xyz="0.2376229125793925 0.030525000000083069 -0.025619356300374152" rpy="-1.5707976670029662 -1.5707963040226141 1.3402080699989136e-06" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_232">
+      <origin xyz="0.2284500214729146 0.014062499999997979 -0.049128498936715226" rpy="1.5707963270766541 1.4633960124114429 -3.1415926533064025" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_233">
+      <origin xyz="0.23256835598931036 0.024356964481435428 -0.010930402493940949" rpy="1.570796327076653 1.4633960124114429 -3.1415926533064038" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_235">
+      <origin xyz="0.22955352588074396 0.024356964481435428 -0.038893349842467839" rpy="1.5707963270766543 1.4633960124114429 -3.1415926533064025" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_236">
+      <origin xyz="0.028807005381032313 0.014062499999997979 -0.027603951886044809" rpy="-1.5707963270766532 -1.4633960124114429 2.8338990620392352e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_237">
+      <origin xyz="0.23367186039713972 0.01406249999999809 -0.00069525339969345179" rpy="1.5707963270766827 1.4633960124114429 -3.1415926533063741" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_238">
+      <origin xyz="0.2284500214729146 -0.014062500000001976 -0.049128498936715115" rpy="1.5707963270802177 1.4633960124114429 -3.1415926533028182" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_243">
+      <origin xyz="0.22955352588074418 -0.024356964481439314 -0.038893349842467506" rpy="1.5707963270801906 1.4633960124114429 -3.1415926533028458" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_244">
+      <origin xyz="0.23367186039713972 -0.014062500000001865 -0.00069525339969322975" rpy="1.5707963270801923 1.4633960124114429 -3.141592653302844" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_245">
+      <origin xyz="0.23256835598931036 -0.024356964481439314 -0.010930402493940727" rpy="1.5707963270801899 1.4633960124114429 -3.1415926533028462" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_246">
+      <origin xyz="0.028807005381032535 -0.014062500000002087 -0.027603951886044698" rpy="-1.5707963270801892 -1.4633960124114429 2.8694628972738018e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_247">
+      <origin xyz="0.029910509788861894 -0.024356964481439314 -0.017368802791797089" rpy="-1.570796327076655 -1.4633960124114429 2.8339151838353532e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_249">
+      <origin xyz="0.034028844305257655 -0.014062500000001976 0.020829293650977077" rpy="-1.5707963273026788 -1.4633960124114429 5.1072528209377985e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_251">
+      <origin xyz="0.029910509788861894 0.024356964481435317 -0.017368802791797311" rpy="-1.5707963273026486 -1.4633960124114429 5.1069498745437433e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_252">
+      <origin xyz="0.032925339897428074 0.024356964481435317 0.010594144556729468" rpy="-1.5707963273027123 -1.4633960124114429 5.1075912065609693e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_253">
+      <origin xyz="0.034028844305257655 0.01406249999999809 0.020829293650976966" rpy="-1.5707963273027143 -1.4633960124114429 5.1076101423252112e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_254">
+      <origin xyz="0.032925339897428074 -0.024356964481439314 0.01059414455672969" rpy="-1.5707963273026555 -1.4633960124114429 5.1070197852501903e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="link_3">
+    <visual name="cad_part_001">
+      <origin xyz="9.1038288019262836e-15 -0.037625000000005238 1.4432899320127035e-14" rpy="1.5707963267949014 -1.5281433280534333e-15 4.4408920985006262e-16" />
+      <geometry>
+        <mesh filename="meshes/9e7f2b97d083.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_002">
+      <origin xyz="9.1038288019262836e-15 -0.033075000000005295 1.4432899320127035e-14" rpy="1.5707963267949014 -1.5281433280534333e-15 4.4408920985006262e-16" />
+      <geometry>
+        <mesh filename="meshes/9e7f2b97d083.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_004">
+      <origin xyz="9.1038288019262836e-15 -0.032975000000005306 1.4432899320127035e-14" rpy="1.5707963267949014 -1.5281433280534333e-15 4.4408920985006262e-16" />
+      <geometry>
+        <mesh filename="meshes/a57c6332ae99.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_005">
+      <origin xyz="3.5527136788005009e-15 0.035524999999995033 2.5757174171303632e-14" rpy="1.5707963267948943 -0.33130207063964617 -3.1415926535897918" />
+      <geometry>
+        <mesh filename="meshes/8199583a71a6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_006">
+      <origin xyz="-0.17635805773219038 0.0001500000001524171 0.12522455020053036" rpy="-0.33130207063964578 -1.0705404323241381e-13 -1.5707963267948581" />
+      <geometry>
+        <mesh filename="meshes/701f7e9e4e99.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_158">
+      <origin xyz="-6.2172489379008766e-15 0.035525000000046658 -4.4408920985006262e-16" rpy="1.5707963267949296 -0.33130207063964606 -3.1415926535897918" />
+      <geometry>
+        <mesh filename="meshes/fed4c666ec72.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_161">
+      <origin xyz="-0.2265292442425626 -0.021074999999642352 0.12827480645560241" rpy="-3.1415926535895689 0.21033951383275526 3.6664677639432483e-14" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_162">
+      <origin xyz="-0.1830017901672687 -0.032825000402846194 0.11667041090232788" rpy="1.5707963267952942 0.21033951383316699 8.4747508888195406e-14" />
+      <geometry>
+        <mesh filename="meshes/ac54108b65b6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_163">
+      <origin xyz="-0.20112039062147935 -0.021075000031264834 0.11953466002141988" rpy="-3.141592653589568 0.21033951383275326 3.680096972351543e-14" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_164">
+      <origin xyz="-0.19238024423356426 -0.021075000031953173 0.14494351361848834" rpy="-3.1415926535895684 0.21033951383275432 3.6712083581303712e-14" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_165">
+      <origin xyz="-0.21778909785922207 -0.021075000001374522 0.15368366001906419" rpy="-3.1415926535895689 0.21033951383275526 3.6664677638764709e-14" />
+      <geometry>
+        <mesh filename="meshes/11edb99d53e4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_166">
+      <origin xyz="-0.17633366153927188 -0.03282500039972136 0.13605561301447466" rpy="1.5707963267952942 0.21033951383316724 8.4747508888195494e-14" />
+      <geometry>
+        <mesh filename="meshes/ac54108b65b6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_167">
+      <origin xyz="-0.20945474427007782 -0.028825000000414991 0.136609160083765" rpy="-1.5707963267953078 -0.3313020706202589 -3.1415926535896577" />
+      <geometry>
+        <mesh filename="meshes/3246d68f0736.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_168">
+      <origin xyz="-0.22831739039709298 0.030675000000149111 0.12020182693366144" rpy="1.5707963267944991 -0.21033951383316832 -3.1415926535897083" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_169">
+      <origin xyz="-0.23439438574250393 0.024374999968263977 0.13834532850240466" rpy="-1.3604568129621493 -2.2077701059174687e-13 1.5707963267948863" />
+      <geometry>
+        <mesh filename="meshes/b66f6bf346a2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_170">
+      <origin xyz="-0.20945474424907395 -0.029075000001024809 0.13660916005740809" rpy="6.7539695160670876e-13 0.33130207063941508 1.6203955834673928e-15" />
+      <geometry>
+        <mesh filename="meshes/bdba681de961.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_171">
+      <origin xyz="-0.19148797154557728 -0.031775000031425749 0.13042894323429854" rpy="-1.3604568129621493 -2.1895436995791143e-13 1.5707963267948863" />
+      <geometry>
+        <mesh filename="meshes/ae4404ba716d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_172">
+      <origin xyz="-0.20945474424932042 -0.030825000000984537 0.13660916005712276" rpy="-1.5707963267942213 0.33130207063964601 1.6203955836323338e-15" />
+      <geometry>
+        <mesh filename="meshes/2936e9eb8438.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_173">
+      <origin xyz="-0.18451510273338134 0.024374999999748126 0.13487299157079613" rpy="-1.360456812962149 -2.2006924340940551e-13 1.5707963267948863" />
+      <geometry>
+        <mesh filename="meshes/b66f6bf346a2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_174">
+      <origin xyz="-0.2142325884719436 0.030674999999575348 0.16114835736667821" rpy="1.5707963267944991 -0.21033951383316832 -3.1415926535897083" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_175">
+      <origin xyz="-0.22742151693111801 -0.031774999999631404 0.14278937683962545" rpy="-1.3604568129621486 -2.1889885880702833e-13 1.5707963267948863" />
+      <geometry>
+        <mesh filename="meshes/ae4404ba716d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_176">
+      <origin xyz="-0.209454744249292 0.028674999999205864 0.1366091600573095" rpy="-3.1415926535878302 -1.2394942561235431 -2.0743933931204244e-12" />
+      <geometry>
+        <mesh filename="meshes/b5c4332975a7.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_177">
+      <origin xyz="-0.21807452028319174 0.027174999999223792 0.11155024026563731" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_178">
+      <origin xyz="-0.20112041791837831 -0.012125014580785076 0.11953466944673885" rpy="1.570796326795572 0.33130207063968603 1.620395583658963e-15" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_179">
+      <origin xyz="-0.20083496821539293 0.027174999999187932 0.16166807984897968" rpy="-1.5707963267968601 1.2394942561552107 3.1415926535877183" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_180">
+      <origin xyz="-0.19206297113525506 0.027174999999214799 0.11661475514118369" rpy="-1.5707963267958698 -0.85490084623800433 -3.1415926535892771" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_181">
+      <origin xyz="-0.209454744249292 0.028174999999205919 0.13660916005730928" rpy="-1.9634753816450329e-12 1.2394942561552107 3.1415926535877183" />
+      <geometry>
+        <mesh filename="meshes/6e34851f243a.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_182">
+      <origin xyz="-0.22684651736332961 0.027174999999196925 0.15660356497343353" rpy="1.5707963267958698 0.85490084623800433 5.1617457876630946e-13" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_183">
+      <origin xyz="-0.18344319510135665 0.027174999999196925 0.14167367493285521" rpy="-1.5707963267955474 0.19229670495863238 3.1415926535894507" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_184">
+      <origin xyz="-0.23546629339722802 0.027174999999214799 0.13154464518176201" rpy="1.5707963267955474 -0.19229670495863238 -3.4241945986266842e-13" />
+      <geometry>
+        <mesh filename="meshes/b69a18b63c01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_185">
+      <origin xyz="-0.20945474424930155 -0.014975000000794103 0.13660916005728152" rpy="1.9634753816450329e-12 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/478cdcc29822.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_186">
+      <origin xyz="-0.20945474424929267 0.020924999999205829 0.13660916005730728" rpy="-3.1415926535878298 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/985fd2636c89.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_187">
+      <origin xyz="-0.2265292169675186 -0.012125014580785076 0.12827479707054457" rpy="-1.5707963267968601 1.2394942561552107 3.1415926535877183" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_188">
+      <origin xyz="-0.22907189624248003 -0.0087750000007789097 0.11954553360577524" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_189">
+      <origin xyz="-0.19826920106684232 -0.024575000000781944 0.11369336585949974" rpy="1.5707963267942213 -0.33130207063968603 -3.1415926535897918" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_190">
+      <origin xyz="-0.22064030619525443 -0.024575000000806368 0.1595248997069082" rpy="-1.5707963267942213 0.33130207063968603 1.620395583658963e-15" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_191">
+      <origin xyz="-0.1923802902945726 -0.012125014580803173 0.14494346849587914" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_192">
+      <origin xyz="-0.21778908934371288 -0.012125014580803173 0.15368359611968485" rpy="-1.570796326795572 -0.33130207063968603 -3.1415926535897918" />
+      <geometry>
+        <mesh filename="meshes/5f6019a00103.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_193">
+      <origin xyz="-0.18393397904754982 -0.0087750000008028906 0.14157811804838716" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_194">
+      <origin xyz="-0.18983759225612018 -0.0087750000008093298 0.15367278650879601" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_195">
+      <origin xyz="-0.20448578625819858 -0.0087750000007789097 0.11108839485553512" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_196">
+      <origin xyz="-0.23404085423358167 -0.0087750000007942308 0.14506629880752564" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_197">
+      <origin xyz="-0.19239111779778972 -0.008775000000785349 0.1169920080641057" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_198">
+      <origin xyz="-0.21442370224040186 -0.0087750000008093298 0.16212992525903591" rpy="1.5707963267968601 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/3f5102710f4b.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_199">
+      <origin xyz="-0.23237052055475593 -0.024575000000781944 0.12542358021898836" rpy="-1.5707963267929332 -1.2394942561552107 -2.0747698896387094e-12" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_200">
+      <origin xyz="-0.18653898670734415 -0.024575000000806257 0.14779468534741003" rpy="1.5707963267929332 1.2394942561552107 3.1415926535877183" />
+      <geometry>
+        <mesh filename="meshes/e2c1bd414edc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_201">
+      <origin xyz="-0.20467690002750061 0.030674999999594443 0.11206996274793857" rpy="1.5707963267944991 -0.2103395138331666 -3.1415926535897083" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_202">
+      <origin xyz="-0.19059209810243982 0.030674999999578456 0.15301649318376043" rpy="1.5707963267944991 -0.2103395138331666 -3.1415926535897083" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_203">
+      <origin xyz="-0.23309523411519417 0.030674999623389598 0.1447410250048925" rpy="1.5707963267944991 -0.21033951383316768 -3.1415926535897083" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_204">
+      <origin xyz="-0.18581425335494473 0.030674999602883335 0.12847729664342145" rpy="1.5707963267944991 -0.21033951383316768 -3.1415926535897083" />
+      <geometry>
+        <mesh filename="meshes/23b3345a77be.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_208">
+      <origin xyz="-0.20945474424851018 -0.03782500000041511 0.13660916005570478" rpy="1.5707963267945078 -0.0071494052677973045 -3.1415926535897887" />
+      <geometry>
+        <mesh filename="meshes/5a89cf0e715c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_219">
+      <origin xyz="-0.17165046333956591 -0.013912500000002659 0.14936290709962774" rpy="-1.5707963269014211 -1.2394942561552516 1.1265214332000393e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_220">
+      <origin xyz="-0.012233692058294832 -0.024206964481439663 0.053897791558424446" rpy="1.5707963269014205 1.2394942561552511 -3.1415926534771419" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_221">
+      <origin xyz="0.00026318262745128607 -0.013912500000002326 0.090227990761417964" rpy="1.5707963269014211 1.2394942561552516 -3.141592653477141" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_222">
+      <origin xyz="-0.17165046333956591 0.014212499999997408 0.14936290709962774" rpy="-1.5707963270109015 -1.2394942561552511 2.2842838479866442e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_225">
+      <origin xyz="-0.17499899081952441 -0.024206964481439996 0.13962825956232405" rpy="-1.5707963269014209 -1.2394942561552516 1.1265180200130859e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_226">
+      <origin xyz="-0.17499899081952441 0.024506964481434745 0.13962825956232405" rpy="-1.5707963270109015 -1.2394942561552511 2.2842838479866455e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_227">
+      <origin xyz="-0.18749586550527053 -0.013912500000002659 0.10329806035933042" rpy="-1.5707963269014207 -1.2394942561552511 1.1265153539330894e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_228">
+      <origin xyz="-0.1841473380253118 -0.024206964481439996 0.11303270789663478" rpy="-1.57079632690142 -1.2394942561552511 1.1265099784691206e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_229">
+      <origin xyz="-0.18749586550527053 0.014212499999997408 0.10329806035933042" rpy="-1.5707963269014207 -1.2394942561552511 1.1265153539330894e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_230">
+      <origin xyz="-0.1841473380253118 0.024506964481434745 0.11303270789663455" rpy="-1.5707963269014207 -1.2394942561552511 1.1265153539330894e-10" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_231">
+      <origin xyz="-0.0030853448525069993 -0.024206964481439663 0.080493343224114056" rpy="1.5707963269014211 1.2394942561552516 -3.141592653477141" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_234">
+      <origin xyz="-0.0030853448525072213 0.024506964481434967 0.080493343224113834" rpy="1.57079632690141 1.2394942561552518 -3.141592653477153" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_239">
+      <origin xyz="0.00026318262745150811 0.01421249999999763 0.090227990761417742" rpy="1.5707963269014213 1.2394942561552518 -3.141592653477141" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_240">
+      <origin xyz="-0.01223369205829461 0.024506964481434967 0.053897791558424446" rpy="1.57079632690141 1.2394942561552518 -3.141592653477153" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_241">
+      <origin xyz="-0.015582219538253339 0.01421249999999763 0.044163144021120537" rpy="1.57079632690141 1.2394942561552518 -3.141592653477153" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_242">
+      <origin xyz="-0.015582219538253339 -0.013912500000002326 0.044163144021120648" rpy="1.57079632690141 1.2394942561552518 -3.141592653477153" />
+      <geometry>
+        <mesh filename="meshes/e4b93615a42e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_248">
+      <origin xyz="-0.0025800358799912271 0.023124999999997953 0.013251166547075144" rpy="-9.2248972885644413e-16 1.5707963267948919 0" />
+      <geometry>
+        <mesh filename="meshes/8978fac30419.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_250">
+      <origin xyz="0.010185828919539341 0.023124999999998064 0.0088599598882969088" rpy="-9.2248972885644413e-16 1.5707963267948919 0" />
+      <geometry>
+        <mesh filename="meshes/8978fac30419.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_256">
+      <origin xyz="0.0078755199007034538 0.032024999999821113 -0.0090540701506810484" rpy="-1.5707963267949012 2.3231543261972553e-15 -1.5707963267948957" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_257">
+      <origin xyz="-0.012765864799525906 0.023124999999997953 0.004391206658793112" rpy="-9.2248972885644413e-16 1.5707963267948919 0" />
+      <geometry>
+        <mesh filename="meshes/8978fac30419.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_258">
+      <origin xyz="0.012765864799535676 0.023124999999998064 -0.0043912066587635801" rpy="-9.2248972885644413e-16 1.5707963267948919 0" />
+      <geometry>
+        <mesh filename="meshes/8978fac30419.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_260">
+      <origin xyz="-0.010185828919530016 0.023124999999998064 -0.0088599598882673769" rpy="-9.2248972885644413e-16 1.5707963267948919 0" />
+      <geometry>
+        <mesh filename="meshes/8978fac30419.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_261">
+      <origin xyz="0.002580035880000775 0.023124999999998064 -0.013251166547045723" rpy="-9.2248972885644413e-16 1.5707963267948919 0" />
+      <geometry>
+        <mesh filename="meshes/8978fac30419.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_266">
+      <origin xyz="-0.011778814708490071 0.032024999999820891 -0.0022933652266468041" rpy="-1.5707963267949012 2.3231543261972553e-15 -1.5707963267948957" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_267">
+      <origin xyz="0.0039032948078105978 0.032024999999821002 0.011347435377377368" rpy="-1.5707963267949012 2.3231543261972553e-15 -1.5707963267948957" />
+      <geometry>
+        <mesh filename="meshes/76d53522f863.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="link_4">
+    <visual name="cad_part_206">
+      <origin xyz="8.1024076337143924e-13 -0.033325000000567595 -1.4162004902118497e-12" rpy="1.5707963267945078 -0.0071494052677973045 -3.1415926535897887" />
+      <geometry>
+        <mesh filename="meshes/9e7f2b97d083.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_207">
+      <origin xyz="8.1024076337143924e-13 -0.037875000000567538 -1.4179768470512499e-12" rpy="1.5707963267945078 -0.0071494052677973045 -3.1415926535897887" />
+      <geometry>
+        <mesh filename="meshes/9e7f2b97d083.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_209">
+      <origin xyz="8.1024076337143924e-13 -0.037975000000567527 -1.4179768470512499e-12" rpy="1.5707963267945078 -0.0071494052677973045 -3.1415926535897887" />
+      <geometry>
+        <mesh filename="meshes/a57c6332ae99.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_269">
+      <origin xyz="-1.4832579608992091e-13 0.028574999999844919 -4.2987835513486061e-13" rpy="-1.5707963267948939 -1.2394942561552509 -2.7452293124549887e-15" />
+      <geometry>
+        <mesh filename="meshes/debc0c19a7f4.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_270">
+      <origin xyz="0.058142828200554275 -0.00015000000015508164 0.061428100481544679" rpy="-1.5707963267948959 -1.2394942561552511 -5.3810918886587009e-16" />
+      <geometry>
+        <mesh filename="meshes/916d19917ffc.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_273">
+      <origin xyz="0.06480944648475262 -0.00015000000015130688 0.059134914781957759" rpy="-0.33130207063964567 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/72b2b8fb239a.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_274">
+      <origin xyz="0.098757190655357263 -0.00015000000014830928 0.047457557815281604" rpy="2.8102905829502474 1.9685224356861145e-14 -1.5707963267950862" />
+      <geometry>
+        <mesh filename="meshes/071527f5edc3.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_275">
+      <origin xyz="0.10043223856513683 0.013285028842390578 0.061088989856705966" rpy="-3.1415926535895595 -1.2394942561552509 -2.4671275094086169e-13" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_276">
+      <origin xyz="0.10021844604475882 -0.013150000000150097 0.070766455959275776" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_277">
+      <origin xyz="0.061452496852283378 -0.00015000000014830928 0.06028963949593269" rpy="-2.8102905829501474 -7.5957724502682608e-14 1.5707963267948708" />
+      <geometry>
+        <mesh filename="meshes/892fbeb23f83.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_278">
+      <origin xyz="0.09169211094133134 -0.013585028842687197 0.035680190807563239" rpy="3.1415926535895595 1.2394942561552509 3.1415926535895466" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_279">
+      <origin xyz="0.10197005948715621 -0.018181222920406803 0.027284298445320765" rpy="-1.2394942561552509 -7.5957724502682608e-14 1.5707963267948708" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_280">
+      <origin xyz="0.097122918418839799 -0.022666660498549374 0.061767315124785505" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_281">
+      <origin xyz="0.11370023719082822 0.017881222920110296 0.061385600040910537" rpy="1.2394942561552509 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_282">
+      <origin xyz="0.091692101559587291 0.013284999999852776 0.035680163533493792" rpy="1.9020983974345422 -7.5957724502682608e-14 1.5707963267948708" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_283">
+      <origin xyz="0.10043224794688088 -0.013585000000149394 0.061089017130775414" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_284">
+      <origin xyz="0.088665779668600564 -0.022666660498547264 0.037181205140503604" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_285">
+      <origin xyz="0.084437210293481613 -0.00015000000014619985 0.024888150148364208" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_286">
+      <origin xyz="0.088665779668601896 0.022366660498252755 0.037181205140506934" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_287">
+      <origin xyz="0.097122918418840909 0.022366660498250646 0.061767315124788835" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_288">
+      <origin xyz="0.10021844604475949 0.012849999999849926 0.070766455959277774" rpy="-1.9020983974345422 7.5957724502682608e-14 -1.5707963267949225" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_289">
+      <origin xyz="0.11370024657257205 -0.018181194077869778 0.061385627314979541" rpy="-2.3351879345883046e-13 1.2394942561552509 3.1415926535895466" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_290">
+      <origin xyz="0.10197005010541238 0.017881194077573159 0.027284271171251984" rpy="2.3351879345883046e-13 -1.2394942561552509 -2.4671275094086169e-13" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_291">
+      <origin xyz="0.048927102641004971 0.0098499999998460375 0.026950855777059246" rpy="-1.570796326794901 0.33130207063964562 -1.6444075671023358e-14" />
+      <geometry>
+        <mesh filename="meshes/cf2684423ad1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_293">
+      <origin xyz="-1.1102230246251565e-15 -0.035125000001136608 -2.6645352591003757e-15" rpy="-1.5707963267968601 1.2394942561552509 3.1415926535877188" />
+      <geometry>
+        <mesh filename="meshes/f74321e17a45.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_319">
+      <origin xyz="0.048927102641004971 -0.010150000000153758 0.02695085577705969" rpy="-1.570796326794901 0.33130207063964562 -1.6444075671023358e-14" />
+      <geometry>
+        <mesh filename="meshes/cf2684423ad1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_320">
+      <origin xyz="-0.0088599598884482322 0.023974999999845981 0.01018582891908304" rpy="3.1415926535897922 -0.33130207054144944 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/e286c15d5fb6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_321">
+      <origin xyz="0.0017657764246121754 -0.031725000001157966 0.035876622383057333" rpy="-3.1415926535891177 0.33130207054144928 1.7234946546157156e-15" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_322">
+      <origin xyz="0.013251166546893955 0.023974999999846092 0.0025800358795449174" rpy="3.1415926535897922 -0.33130207054144944 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/e286c15d5fb6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_323">
+      <origin xyz="-0.0132511665472268 0.023974999999846092 -0.002580035880448861" rpy="3.1415926535897922 -0.33130207054144944 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/e286c15d5fb6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_324">
+      <origin xyz="0.07015196505614929 -0.021800635094764154 0.070516039300811961" rpy="2.8102905829501474 5.9893077778191291e-17 -1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_325">
+      <origin xyz="0.070151965056150178 0.021500635094457654 0.070516039300811517" rpy="2.8102905829501474 5.9893077778191291e-17 -1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_326">
+      <origin xyz="0.0088599598881158315 0.023974999999845981 -0.010185828919986761" rpy="3.1415926535897922 -0.33130207054144944 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/e286c15d5fb6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_327">
+      <origin xyz="0.048927102641005416 -0.00015000000015352732 0.026950855777059246" rpy="-1.570796326794901 0.33130207063964562 -1.6444075671023358e-14" />
+      <geometry>
+        <mesh filename="meshes/cf2684423ad1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_328">
+      <origin xyz="-0.0043912066589419929 0.023974999999846314 -0.01276586479998354" rpy="3.1415926535897922 -0.33130207054144944 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/e286c15d5fb6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_329">
+      <origin xyz="0.0043912066586120346 0.023974999999846314 0.012765864799078486" rpy="3.1415926535897922 -0.33130207054144944 -3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/e286c15d5fb6.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_330">
+      <origin xyz="0.057954168781766624 -0.00015000000015319426 0.035055303746560185" rpy="2.8102905829501474 5.9893077778191291e-17 -1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_331">
+      <origin xyz="0.062020100873227957 0.021500635094457765 0.046875548931310407" rpy="2.8102905829501474 5.9893077778191291e-17 -1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_332">
+      <origin xyz="0.020678168720216883 -0.031725000001163406 0.029371131036718401" rpy="-3.1415926535891177 0.33130207054144928 1.7234946546157156e-15" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_333">
+      <origin xyz="0.011221972572417638 -0.031725000001163073 0.032623876709886535" rpy="-3.1415926535891177 0.33130207054144928 1.7234946546157156e-15" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_334">
+      <origin xyz="0.062020100873228179 -0.021800635094763932 0.046875548931309963" rpy="2.8102905829501474 5.9893077778191291e-17 -1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_335">
+      <origin xyz="-0.0090540701508643462 0.032025016201979728 -0.0078755199011470989" rpy="2.810290583048344 8.612639799487897e-16 -1.5707963267948968" />
+      <geometry>
+        <mesh filename="meshes/10758a0fe4e1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_336">
+      <origin xyz="0.06647041563808509 -0.0066204761277162127 0.084100423391903822" rpy="-3.1415926535897931 0.33130207063964567 2.3516533427000999e-16" />
+      <geometry>
+        <mesh filename="meshes/9b094bf36b0e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_338">
+      <origin xyz="0.074217897147610179 -0.0001500000001534163 0.082336284485560851" rpy="2.8102905829501474 5.9893077778191291e-17 -1.5707963267948963" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_342">
+      <origin xyz="-0.0022933652268295468 0.032025016201979728 0.011778814708044871" rpy="2.810290583048344 8.612639799487897e-16 -1.5707963267948968" />
+      <geometry>
+        <mesh filename="meshes/10758a0fe4e1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_343">
+      <origin xyz="0.011347435377194959 0.032025016201982948 -0.0039032948082542429" rpy="2.810290583048344 8.612639799487897e-16 -1.5707963267948968" />
+      <geometry>
+        <mesh filename="meshes/10758a0fe4e1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_344">
+      <origin xyz="0.050760860377765615 0.0063204761274097132 0.038430503003823668" rpy="-3.1415926535897931 0.33130207063964567 2.3516533427000999e-16" />
+      <geometry>
+        <mesh filename="meshes/9b094bf36b0e.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="link_5">
+    <visual name="cad_part_268">
+      <origin xyz="0.011144421868846566 -0.0044407156089706357 0.0096484146930431169" rpy="2.1253573054415056 1.1781694967979528 -2.5510017296812637" />
+      <geometry>
+        <mesh filename="meshes/47a8ee4ce9bf.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_271">
+      <origin xyz="0.0028507484298774255 0.0044407156090262578 -0.014462478289337222" rpy="2.1253573054413453 1.1781694967979583 -2.5510017296812544" />
+      <geometry>
+        <mesh filename="meshes/47a8ee4ce9bf.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_272">
+      <origin xyz="0.0036732347944536947 -0.0088203638050451394 -0.012071392980555595" rpy="2.1253573054418138 1.1781694967979455 -2.5510017296812744" />
+      <geometry>
+        <mesh filename="meshes/47a8ee4ce9bf.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_292">
+      <origin xyz="-0.002836858844340151 0 0.00097582370195059553" rpy="-2.8047595051146672 0.17805679870458077 1.6327395607871398" />
+      <geometry>
+        <mesh filename="meshes/a1dd727c387f.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_294">
+      <origin xyz="-0.031543101161982667 -0.025048705559901685 0.015901104328212901" rpy="-2.6429690237461991 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/72b2b8fb239a.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_295">
+      <origin xyz="-0.033730305642593938 0.010215942659731025 0.0095425885811581956" rpy="0.4986236298440751 1.1913887322900134 -2.61137819498073" />
+      <geometry>
+        <mesh filename="meshes/071527f5edc3.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_296">
+      <origin xyz="-0.016559537688003001 0.0099328032196280835 0.018156895570518028" rpy="-1.7592122024532453 0.3313020706395981 9.1172416000614471e-15" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_297">
+      <origin xyz="-0.016214108247887271 0.0016907296070144406 -0.0087588750552745065" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_298">
+      <origin xyz="-0.031326817710556343 -0.028535878294711603 0.016529871205710256" rpy="-0.49862362984359404 -1.191388732290096 0.53021445860865302" />
+      <geometry>
+        <mesh filename="meshes/892fbeb23f83.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_299">
+      <origin xyz="-0.050553801576586288 0.0048999596805610057 0.0019378509443952474" rpy="1.7592122024532453 -0.3313020706395981 -3.1415926535897842" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_300">
+      <origin xyz="-0.05712710713273772 0.016268740675183802 -0.0030415774997964995" rpy="1.0721726969513026 -1.191388732290096 0.53021445860865302" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_301">
+      <origin xyz="-0.028253992613913814 -9.1769852577749944e-05 -0.014503223078582206" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_302">
+      <origin xyz="-0.011503207989471909 0.023023346477619389 0.018726081237241399" rpy="-1.0721726969513026 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_303">
+      <origin xyz="-0.041968373226923816 0.0099327978173323617 0.026897005784686456" rpy="-2.0694199566384905 -1.191388732290096 0.53021445860865302" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_304">
+      <origin xyz="-0.025144966037665473 0.0048999650828566166 -0.006802259269773181" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/054fc6a9b704.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_305">
+      <origin xyz="-0.052840102598195937 -9.1769852577971989e-05 -0.0060460843283443033" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_306">
+      <origin xyz="-0.057938681148330451 0.0041256691510478394 0.019097855399133001" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_307">
+      <origin xyz="-0.038451149714182398 0.0083431081546738728 0.035784656376372403" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_308">
+      <origin xyz="-0.013865039729900275 0.0083431081546740948 0.027327517626134501" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_309">
+      <origin xyz="-0.0079066424269469415 0.0065606086950820153 0.015392114350990305" rpy="2.0694199566384905 1.191388732290096 -2.6113781949811403" />
+      <geometry>
+        <mesh filename="meshes/a297970e272d.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_310">
+      <origin xyz="-0.023025769047370082 0.016268746077479523 -0.014771737793830786" rpy="-1.3823804511365481 -0.3313020706395981 -3.1415926535897842" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_311">
+      <origin xyz="-0.045604546074839325 0.023023341075323556 0.030456241531275685" rpy="1.3823804511365481 0.3313020706395981 9.1172416000614471e-15" />
+      <geometry>
+        <mesh filename="meshes/9e7a13370512.stl" scale="1 1 1" />
+      </geometry>
+      <material name="black_motor">
+        <color rgba=".035 .04 .045 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_312">
+      <origin xyz="0.0078200715139364885 -0.013261079414038313 -1.5946489367646421e-05" rpy="2.1253573054409096 1.1781694967977836 -2.5510017296815364" />
+      <geometry>
+        <mesh filename="meshes/47a8ee4ce9bf.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_313">
+      <origin xyz="0.0061750987847866146 0.013261079414092491 -0.0047981171069291229" rpy="2.1253573054415917 1.1781694967979506 -2.5510017296812673" />
+      <geometry>
+        <mesh filename="meshes/47a8ee4ce9bf.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_314">
+      <origin xyz="-0.025696345742237892 0.013789794398902377 -0.0084051988051769833" rpy="-0.18841587565835247 0.33130207063966283 8.9782891225689066e-16" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_315">
+      <origin xyz="-0.017110880902792669 0.018822637937970232 0.01655397344475662" rpy="-0.18841587565835491 0.33130207063966088 -7.8495061734317042e-15" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_316">
+      <origin xyz="-0.051105199339528173 0.013789794398901933 0.00033494758211838338" rpy="-0.18841587565825532 0.33130207063972422 2.9853371651792109e-13" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_317">
+      <origin xyz="-0.042519734500084283 0.018822637937970343 0.025294119832053763" rpy="-0.18841587565835721 0.33130207063966016 -1.1931413021499972e-14" />
+      <geometry>
+        <mesh filename="meshes/87de794fd3d2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_318">
+      <origin xyz="0.010321935504269852 0.0088203638050970978 0.0072573293842617126" rpy="2.1253573054414052 1.1781694967979555 -2.5510017296812584" />
+      <geometry>
+        <mesh filename="meshes/47a8ee4ce9bf.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_339">
+      <origin xyz="-0.002242951367425583 -0.011450245713919838 -0.0034462540901141203" rpy="-1.7855029976658097 0.33130207063964623 -1.0724175454660626e-15" />
+      <geometry>
+        <mesh filename="meshes/10758a0fe4e1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_340">
+      <origin xyz="0.0029285351190135867 0.0022710493824426026 0.011587995588505651" rpy="-1.7855029976658097 0.33130207063964623 -1.0724175454660626e-15" />
+      <geometry>
+        <mesh filename="meshes/10758a0fe4e1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_341">
+      <origin xyz="-0.003522442595959463 0.0091791963315589475 -0.0071659177964480403" rpy="-1.7855029976658097 0.33130207063964623 -1.0724175454660626e-15" />
+      <geometry>
+        <mesh filename="meshes/10758a0fe4e1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="link_6">
+    <visual name="cad_part_337">
+      <origin xyz="0.012528257627514527 0.0038309784974023264 -0.0050819646368369664" rpy="1.6317589964292303 -1.3924045884565572 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/9fc551dbd685.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_345">
+      <origin xyz="0 0 0" rpy="-1.389656214552752 0.18377883107387721 -3.0461923984487349" />
+      <geometry>
+        <mesh filename="meshes/80fcb27ba6d8.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_346">
+      <origin xyz="-3.3306690738754696e-15 3.3306690738754696e-16 4.6629367034256575e-15" rpy="-1.3015287210050239 -0.84224266626364086 3.0004626160069878" />
+      <geometry>
+        <mesh filename="meshes/6a32d0bf5442.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_347">
+      <origin xyz="-0.0028849460345881095 0.006020802595438135 0.012364749188127799" rpy="1.6317589964292303 -1.3924045884565572 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/9fc551dbd685.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_348">
+      <origin xyz="-0.0034189762205003582 -0.00066654219104766987 0.018651778014744824" rpy="1.3734180629248323 0.16618487241333735 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/da600c79be6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_349">
+      <origin xyz="0.0098809187649433472 0.0060208025954383571 0.0079735425293507856" rpy="1.6317589964292303 -1.3924045884565572 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/9fc551dbd685.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_350">
+      <origin xyz="-0.010356133108977206 0.0016411543993658517 -0.0093550584854711349" rpy="1.6317589964292303 -1.3924045884565572 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/9fc551dbd685.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_351">
+      <origin xyz="0.017816993269512027 -0.0036836331705805136 -0.0053859165885341564" rpy="-1.5707963267948775 -1.2394942561553528 0" />
+      <geometry>
+        <mesh filename="meshes/da600c79be6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_352">
+      <origin xyz="-0.013712611745214431 -0.0067007241500900427 -0.011273290335540587" rpy="-2.4181336765805725 -0.24755677279401764 -1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/da600c79be6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_353">
+      <origin xyz="-0.013003471971548386 0.0038309784974018823 0.003700448680716617" rpy="1.6317589964292303 -1.3924045884565572 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/9fc551dbd685.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_354">
+      <origin xyz="-0.017360056400308466 -0.0036836331705810688 0.0067142973156504304" rpy="1.5707963267948777 1.2394942561553519 3.1415926535897931" />
+      <geometry>
+        <mesh filename="meshes/da600c79be6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_355">
+      <origin xyz="0.003875913089696148 -0.0067007241500796066 -0.017323397287639208" rpy="-1.3734180629248318 -0.16618487241333732 -1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/da600c79be6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_356">
+      <origin xyz="0.002409731690554251 0.0016411543993661848 -0.013746265144247927" rpy="1.6317589964292303 -1.3924045884565572 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/9fc551dbd685.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_357">
+      <origin xyz="0.014169548614408889 -0.00066654219105666268 0.012601671062659081" rpy="2.4181336765805725 0.24755677279401764 1.5707963267948966" />
+      <geometry>
+        <mesh filename="meshes/da600c79be6c.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_358">
+      <origin xyz="0.0041483168553000382 -0.0021493104222681803 0.012059749457484337" rpy="1.5817811650044313 0.17805679870457991 1.6327395607871398" />
+      <geometry>
+        <mesh filename="meshes/5713f55c5fcd.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_359">
+      <origin xyz="0.0082666183852817543 -0.0055558844958922826 -0.0082498965411310632" rpy="1.5817811650044313 0.17805679870457991 1.6327395607871398" />
+      <geometry>
+        <mesh filename="meshes/5713f55c5fcd.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+    <visual name="cad_part_360">
+      <origin xyz="-0.011592448876091455 -0.0055558844958926157 -0.0014187676074735034" rpy="1.5817811650044313 0.17805679870457991 1.6327395607871398" />
+      <geometry>
+        <mesh filename="meshes/5713f55c5fcd.stl" scale="1 1 1" />
+      </geometry>
+      <material name="silver_aluminum">
+        <color rgba=".62 .65 .69 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="tool0" />
+  <link name="hand_mount" />
+  <link name="palm_reference" />
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link" />
+    <child link="link_1" />
+    <origin xyz="0 0 0.0636" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.62" upper="3.14" effort="100" velocity="1.5707963267948966" />
+  </joint>
+  <joint name="joint_2" type="revolute">
+    <parent link="link_1" />
+    <child link="link_2" />
+    <origin xyz="-0.0085743741578 0.001225 0.04595" rpy="0 -0.107400314384 0" />
+    <axis xyz="0 -1 0" />
+    <limit lower="0" upper="3.67" effort="100" velocity="1.5707963267948966" />
+  </joint>
+  <joint name="joint_3" type="revolute">
+    <parent link="link_2" />
+    <child link="link_3" />
+    <origin xyz="0.262478865778 0 -0.0282992052858" rpy="0 -0.136635293656 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="3.14" effort="100" velocity="1.5707963267948966" />
+  </joint>
+  <joint name="joint_4" type="revolute">
+    <parent link="link_3" />
+    <child link="link_4" />
+    <origin xyz="-0.209454744249 0.000150000000152 0.136609160057" rpy="3.14159265359 -1.4835298642 3.14159265359" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.69" upper="1.57" effort="100" velocity="1.5707963267948966" />
+  </joint>
+  <joint name="joint_5" type="revolute">
+    <parent link="link_4" />
+    <child link="link_5" />
+    <origin xyz="0.0581428282006 -0.000150000000155 0.0614281004815" rpy="-1.28465767028 0.252653625163 0.336297659775" />
+    <axis xyz="0.94561961478 0 -0.325274567317" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="1.5707963267948966" />
+  </joint>
+  <joint name="joint_6" type="revolute">
+    <parent link="link_5" />
+    <child link="link_6" />
+    <origin xyz="-0.0313268177105 -0.0285358782947 0.0165298712057" rpy="0.00821970132422 -0.515071175295 0.0926808273986" />
+    <axis xyz="0.0609249158945 -0.98230217882 0.17711743028" />
+    <limit lower="-2.09" upper="2.09" effort="100" velocity="1.5707963267948966" />
+  </joint>
+  <joint name="tool0_fixed" type="fixed">
+    <parent link="link_6" />
+    <child link="tool0" />
+    <origin xyz="0.00155358535531 -0.0250487055599 0.00451649447215" rpy="-1.30152872101 -0.842242666264 3.00046261601" />
+  </joint>
+  <joint name="hand_mount_fixed" type="fixed">
+    <parent link="tool0" />
+    <child link="hand_mount" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="palm_reference_fixed" type="fixed">
+    <parent link="hand_mount" />
+    <child link="palm_reference" />
+    <origin xyz="0 0 0" rpy="3.14159265359 -1.57079632679 0" />
+  </joint>
+  <link name="o6_right_hand_base_link">
+    <inertial>
+      <origin xyz="-0.00160320773490556 0.000358462699237561 0.0538002704027215" rpy="0 0 0" />
+      <mass value="0.06740077960995" />
+      <inertia ixx="5.22359941041901E-05" ixy="3.0391535852764E-07" ixz="3.88322215371643E-07" iyy="3.33473043513648E-05" iyz="-7.77555280794861E-07" izz="2.28342677422006E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_hand_base_link_0.stl" />
+      </geometry>
+      <material name="o6_right_hand_base_link_material_0">
+        <color rgba="1 0.6 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_hand_base_link_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="o6_right_thumb_metacarpals_base2">
+    <inertial>
+      <origin xyz="0.00162795738393507 0.00276671978336815 -0.00184227725602707" rpy="0 0 0" />
+      <mass value="0.00138591070212997" />
+      <inertia ixx="5.26294625624223E-08" ixy="-3.9288013799604E-09" ixz="2.43766268199571E-09" iyy="4.82623724532942E-08" iyz="3.71867754115443E-09" izz="2.88555522060562E-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_thumb_metacarpals_base2_0.stl" />
+      </geometry>
+      <material name="o6_right_thumb_metacarpals_base2_material_0">
+        <color rgba="0.164705882352941 0.282352941176471 0.443137254901961 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_thumb_metacarpals_base2_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_thumb_cmc_yaw" type="revolute">
+    <origin xyz="0.011508 0.022975 0.032794" rpy="0 0 0" />
+    <parent link="o6_right_hand_base_link" />
+    <child link="o6_right_thumb_metacarpals_base2" />
+    <axis xyz="0 0 -1" />
+    <limit lower="0" upper="1.36" effort="100" velocity="1" />
+  </joint>
+  <link name="o6_right_thumb_metacarpals">
+    <inertial>
+      <origin xyz="4.24920612856275E-05 -1.67885666835232E-05 0.0228341522590467" rpy="0 0 0" />
+      <mass value="0.0123381607727595" />
+      <inertia ixx="1.10292488693766E-06" ixy="-6.14241939151719E-10" ixz="1.14233108676795E-07" iyy="1.76757658485787E-06" iyz="-4.24576599367025E-10" izz="9.36348143657406E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_thumb_metacarpals_0.stl" />
+      </geometry>
+      <material name="o6_right_thumb_metacarpals_material_0">
+        <color rgba="1 0.6 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_thumb_metacarpals_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_thumb_cmc_pitch" type="revolute">
+    <origin xyz="0.0061649 0.010678 -0.004891" rpy="0 -1.1529 -2.0944" />
+    <parent link="o6_right_thumb_metacarpals_base2" />
+    <child link="o6_right_thumb_metacarpals" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="0.58" effort="100" velocity="1" />
+  </joint>
+  <link name="o6_right_thumb_distal">
+    <inertial>
+      <origin xyz="-0.00413690727496815 -4.54842793429222E-07 0.0230097179163771" rpy="0 0 0" />
+      <mass value="0.00763302603723749" />
+      <inertia ixx="1.30546842791578E-06" ixy="-2.61617511029467E-12" ixz="7.19030685242407E-08" iyy="1.22457212713176E-06" iyz="1.66931068485225E-11" izz="2.7729897944409E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_thumb_distal_0.stl" />
+      </geometry>
+      <material name="o6_right_thumb_distal_material_0">
+        <color rgba="0.792156862745098 0.792156862745098 0.792156862745098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_thumb_distal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_thumb_ip" type="revolute">
+    <origin xyz="0.0037776 0 0.045368" rpy="0 0 0" />
+    <parent link="o6_right_thumb_metacarpals" />
+    <child link="o6_right_thumb_distal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.08" effort="100" velocity="1" />
+    <mimic joint="o6_right_thumb_cmc_pitch" multiplier="1.86" offset="0" />
+  </joint>
+  <link name="o6_right_index_proximal">
+    <inertial>
+      <origin xyz="-0.00208665596033792 -4.8964990644329E-06 0.0172736718900068" rpy="0 0 0" />
+      <mass value="0.00253178529301663" />
+      <inertia ixx="2.65990159539482E-07" ixy="-3.55165625722842E-11" ixz="4.31046335852167E-08" iyy="2.72915460277804E-07" iyz="1.75935978708959E-10" izz="8.56026306687528E-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_index_proximal_0.stl" />
+      </geometry>
+      <material name="o6_right_index_proximal_material_0">
+        <color rgba="0.980392156862745 0.780392156862745 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_index_proximal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_index_mcp_pitch" type="revolute">
+    <origin xyz="0.0024758 0.02419 0.098779" rpy="-0.05236 0 0" />
+    <parent link="o6_right_hand_base_link" />
+    <child link="o6_right_index_proximal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.60" effort="100" velocity="1" />
+  </joint>
+  <link name="o6_right_index_distal">
+    <inertial>
+      <origin xyz="0.00658940011630532 -4.59976557022623E-06 0.0194434136420913" rpy="0 0 0" />
+      <mass value="0.00376787129082313" />
+      <inertia ixx="3.22116619426455E-07" ixy="1.03152735699049E-11" ixz="-1.14363506430985E-07" iyy="3.65131844686317E-07" iyz="-1.97263639269362E-10" izz="1.24256890612907E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_index_distal_0.stl" />
+      </geometry>
+      <material name="o6_right_index_distal_material_0">
+        <color rgba="0.164705882352941 0.282352941176471 0.443137254901961 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_index_distal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_index_dip" type="revolute">
+    <origin xyz="-0.0052516 0 0.036625" rpy="0 0 0" />
+    <parent link="o6_right_index_proximal" />
+    <child link="o6_right_index_distal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.43" effort="100" velocity="1" />
+    <mimic joint="o6_right_index_mcp_pitch" multiplier="0.89" offset="0" />
+  </joint>
+  <link name="o6_right_middle_proximal">
+    <inertial>
+      <origin xyz="-0.00208661081773556 -4.93451838476378E-06 0.0172736805321904" rpy="0 0 0" />
+      <mass value="0.00253175497594429" />
+      <inertia ixx="2.65989683690695E-07" ixy="-3.58343951791586E-11" ixz="4.31048601085216E-08" iyy="2.72915006047006E-07" iyz="1.75718024412593E-10" izz="8.56020467202518E-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_middle_proximal_0.stl" />
+      </geometry>
+      <material name="o6_right_middle_proximal_material_0">
+        <color rgba="0.164705882352941 0.282352941176471 0.443137254901961 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_middle_proximal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_middle_mcp_pitch" type="revolute">
+    <origin xyz="0.00052576 0.00634 0.1027" rpy="0 0 0" />
+    <parent link="o6_right_hand_base_link" />
+    <child link="o6_right_middle_proximal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.60" effort="100" velocity="1" />
+  </joint>
+  <link name="o6_right_middle_distal">
+    <inertial>
+      <origin xyz="0.00658940304809306 -4.5885743593238E-06 0.0194434523296449" rpy="0 0 0" />
+      <mass value="0.00376786259758948" />
+      <inertia ixx="3.221153658306E-07" ixy="1.02639617308432E-11" ixz="-1.14363547272711E-07" iyy="3.65130723083104E-07" iyz="-1.96904618797577E-10" izz="1.24256787913797E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_middle_distal_0.stl" />
+      </geometry>
+      <material name="o6_right_middle_distal_material_0">
+        <color rgba="0.164705882352941 0.282352941176471 0.443137254901961 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_middle_distal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_middle_dip" type="revolute">
+    <origin xyz="-0.0052516 0 0.036625" rpy="0 0 0" />
+    <parent link="o6_right_middle_proximal" />
+    <child link="o6_right_middle_distal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.43" effort="100" velocity="1" />
+    <mimic joint="o6_right_middle_mcp_pitch" multiplier="0.89" offset="0" />
+  </joint>
+  <link name="o6_right_ring_proximal">
+    <inertial>
+      <origin xyz="-0.00208654311325356 -4.98538564003281E-06 0.0172736743497407" rpy="0 0 0" />
+      <mass value="0.00253170963529411" />
+      <inertia ixx="2.6598913795678E-07" ixy="-3.62757108675266E-11" ixz="4.31050611555507E-08" iyy="2.72914417061517E-07" iyz="1.75554984053478E-10" izz="8.56012458677515E-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_ring_proximal_0.stl" />
+      </geometry>
+      <material name="o6_right_ring_proximal_material_0">
+        <color rgba="0.980392156862745 0.780392156862745 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_ring_proximal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_ring_mcp_pitch" type="revolute">
+    <origin xyz="0.0010258 -0.011135 0.098767" rpy="0.05236 0 0" />
+    <parent link="o6_right_hand_base_link" />
+    <child link="o6_right_ring_proximal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.60" effort="100" velocity="1" />
+  </joint>
+  <link name="o6_right_ring_distal">
+    <inertial>
+      <origin xyz="0.00658940273069729 -4.56628863591824E-06 0.0194435005686854" rpy="0 0 0" />
+      <mass value="0.0037678395356105" />
+      <inertia ixx="3.22112632437858E-07" ixy="1.01848408913558E-11" ixz="-1.1436348915342E-07" iyy="3.65128262095686E-07" iyz="-1.96145632992445E-10" izz="1.24256284608064E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_ring_distal_0.stl" />
+      </geometry>
+      <material name="o6_right_ring_distal_material_0">
+        <color rgba="0.164705882352941 0.282352941176471 0.443137254901961 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_ring_distal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_ring_dip" type="revolute">
+    <origin xyz="-0.0052516 0 0.036625" rpy="0 0 0" />
+    <parent link="o6_right_ring_proximal" />
+    <child link="o6_right_ring_distal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.43" effort="100" velocity="1" />
+    <mimic joint="o6_right_ring_mcp_pitch" multiplier="0.89" offset="0" />
+  </joint>
+  <link name="o6_right_pinky_proximal">
+    <inertial>
+      <origin xyz="-0.00208649034130813 -5.02314582560837E-06 0.0172736680793697" rpy="0 0 0" />
+      <mass value="0.00253167400540778" />
+      <inertia ixx="2.65988718820404E-07" ixy="-3.66012295280295E-11" ixz="4.31052220484445E-08" iyy="2.72913936904813E-07" iyz="1.75447396222308E-10" izz="8.56006424720129E-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_pinky_proximal_0.stl" />
+      </geometry>
+      <material name="o6_right_pinky_proximal_material_0">
+        <color rgba="0.980392156862745 0.780392156862745 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_pinky_proximal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_pinky_mcp_pitch" type="revolute">
+    <origin xyz="0.0024758 -0.028372 0.092741" rpy="0.087266 0 0" />
+    <parent link="o6_right_hand_base_link" />
+    <child link="o6_right_pinky_proximal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.60" effort="100" velocity="1" />
+  </joint>
+  <link name="o6_right_pinky_distal">
+    <inertial>
+      <origin xyz="0.00658940431519205 -4.55268314210333E-06 0.0194435341098305" rpy="0 0 0" />
+      <mass value="0.00376782669873412" />
+      <inertia ixx="3.22111112339498E-07" ixy="1.01707985908333E-11" ixz="-1.14363524419061E-07" iyy="3.65126916899176E-07" iyz="-1.95589215866356E-10" izz="1.24256004854426E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_pinky_distal_0.stl" />
+      </geometry>
+      <material name="o6_right_pinky_distal_material_0">
+        <color rgba="0.164705882352941 0.282352941176471 0.443137254901961 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/o6_right_pinky_distal_0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="o6_right_pinky_dip" type="revolute">
+    <origin xyz="-0.0052516 0 0.036625" rpy="0 0 0" />
+    <parent link="o6_right_pinky_proximal" />
+    <child link="o6_right_pinky_distal" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="1.43" effort="100" velocity="1" />
+    <mimic joint="o6_right_pinky_mcp_pitch" multiplier="0.89" offset="0" />
+  </joint>
+  <joint name="o6_right_mount_joint" type="fixed">
+    <parent link="hand_mount" />
+    <child link="o6_right_hand_base_link" />
+    <origin xyz="0 0 -0.005" rpy="0 0 0" />
+  </joint>
+</robot>
